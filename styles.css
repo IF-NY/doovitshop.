@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body { 
+	background-color: #FBF6F2;
+}
+
+.navbar {
+	height: 80px;
+	padding: 0 6vw;
+}
+
+.navbar-brand img{
+	vertical-align: middle;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+.dropdown-item {
+	font-family: 'Roboto', sans-serif;	
+	color: #767676;
+}
+
+.dropdown-item:hover {
+	background-color: #FBF6F2;
+	color: #191919;
+}
+
+.nav-link {
+	font-family: 'Roboto', sans-serif;	
+	font-weight: 500;
+	color: #767676;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-link:hover {
+	color: #191919;
+}
+
+.nav-link img:last-child {
+	display:none
+} 
+
+.nav-link:hover img:first-child {
+	display:none
+} 
+
+.nav-link:hover img:last-child {
+	display:inline-block
+}
+
+.nav-link img {
+	vertical-align: middle;
+	line-height: 70px;
+}
+
+.carousel-item {
+	height: 100vh;
+	text-align: center;
+}
+
+.carousel-item.item1 {
+	background-image: url('https://i.postimg.cc/63tXPKNs/image.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
+.carousel-item.item2 {
+	background-image: url('https://i.postimg.cc/4xRscVFN/image.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
+.intro1 h2{
+	font-size: 54px;
+	color: #191919;
+	font-family: 'Roboto', sans-serif;	
+	font-weight: 800;
+	margin-bottom: 28px;
+	letter-spacing: 0.2em;
+	padding-top: 150px;
+}
+
+.intro1 p {
+	font-size: 20px;
+	color: #191919;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 600;
+	margin-bottom: 100px;
+}
+
+.intro1 a{
+	font-size: 16px;
+	color: #191919;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-weight: 600;
+	border: 2px solid #191919;
+	padding: 10px 18px;
+	letter-spacing: 0.05em;
+}
+
+.intro1 a:hover {
+	color: #ffffff;
+	border: 2px solid #fff;
+}
+
+.intro2 h2{
+	font-size: 54px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;	
+	font-weight: 800;
+	margin-bottom: 28px;
+	letter-spacing: 0.2em;
+	padding-top: 150px;
+}
+
+.intro2 p {
+	font-size: 20px;
+	color: #fff;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 600;
+	margin-bottom: 100px;
+}
+
+.intro2 a{
+	font-size: 16px;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-weight: 600;
+	border: 2px solid #fff;
+	padding: 10px 18px;
+	letter-spacing: 0.05em;
+}
+
+.intro2 a:hover {
+	color: #191919;
+	border: 2px solid #fff;
+	background-color: #fff;
+	opacity: 0.5;
+}
+
+.intro2 {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.intro1 {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
