@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap&family=Dancing+Script:wght@400;500;600;700');
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body { 
+	background-color: #FBF6F2;
+}
+
+.navbar {
+	height: 80px;
+	padding: 0 6vw;
+	background-color: #FBF6F2;
+}
+
+.navbar-brand img{
+	vertical-align: middle;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+.dropdown-item {
+	font-family: 'Roboto', sans-serif;	
+	color: #767676;
+}
+
+.dropdown-item:hover {
+	background-color: #FBF6F2;
+	color: #191919;
+}
+
+.nav-link {
+	font-family: 'Roboto', sans-serif;	
+	font-weight: 500;
+	color: #767676;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-link:hover {
+	color: #191919;
+}
+
+.nav-link img:last-child {
+	display:none
+} 
+
+.nav-link:hover img:first-child {
+	display:none
+} 
+
+.nav-link:hover img:last-child {
+	display:inline-block
+}
+
+.nav-link img {
+	vertical-align: middle;
+	line-height: 70px;
+}
+
+.carousel-item {
+	height: 50vh;
+	text-align: center;
+}
+
+.carousel-item.item1 {
+	background-image: url('https://i.postimg.cc/h48ZMS8z/piano.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
+.carousel-item.item2 {
+	background-image: url('https://i.postimg.cc/6qB0FvV7/guitar.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
+.carousel-item.item3 {
+	background-image: url('https://i.postimg.cc/jqhvPMKy/violin.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
+.intro h2{
+	padding-top: 48px;
+	font-size: 52px;
+	color: white;
+	font-family: 'Dancing Script', cursive;
+	letter-spacing: 0.05em;
+}
+
+.intro p{
+	font-size: 34px;
+	color: white;
+	margin-top: 28px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.intro {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.Footer {
+	height: 30vh;
+	width: 100%;
+	background-color: #F7F2EE;
+	color: #7E756D;
+	text-align: center;
+	line-height: 30vh;
+}
+
+.footer-info {
+	display: inline-block;
+	line-height: normal;
+	vertical-align: middle;
+}
+
+.footer_ico {
+    margin: 0 auto;
+    list-style: none;
+    padding: 0 12px;
+    margin: 28px 0;
+}
+
+.footer_ico li {
+	display: inline-block;
+	padding: 0 12px;
+}
+
+.Footer h2 {
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 8px;
+}
+
+.Footer p {
+	font-size: 12px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.col-12 {
+	text-align: center;
+}
+
+.col-12 h2 {
+	font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+	color: #191919;
+	letter-spacing: 0.05em;
+	font-weight: 700;
+	margin-bottom: 4px;
+}
+
+.col-12 p {
+	font-size: 18px;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #767676;
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;!important;
+}
+
+.music-name {
+	text-align: left;
+}
+
+.music-name h4 {
+	position: relative;
+    margin-bottom: 4px;
+    font-size: 16px;
+    color: #191919;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 24px;
+    margin-top: 24px;
+    letter-spacing: 0.05em;
+    padding-left: 8px;
+}
+
+.music-name p {
+    margin-bottom: 4px;
+    font-size: 15px;
+    color: #767676;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    display: inline-block;
+    letter-spacing: 0.05em;
+    padding-left: 8px;
+}
+
+.review {
+	background-color: #F5EDE6;
+	margin-bottom: 80px;
+}
+
+.review h4 {
+	position: relative;
+    margin-bottom: 8px;
+    font-size: 15px;
+    color: #191919;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    margin-top: 24px;
+}
+
+.review p {
+    margin-bottom: 4px;
+    font-size: 13px;
+    color: #767676;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    padding-bottom: 24px;
+}
+
+.music-img {
+	overflow: hidden;
+}
+
+.course-image {
+	transition: 0.3s ease;
+}
+
+.course-image:hover {
+	transform: scale(1.1);
+}
+
+.alert {
+	margin-top: 28px;
+	background-color: #B59A7F;
+	font-size: 15px;
+    color: #ffffff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    margin-bottom: 28px;
+}
+
+.content div {
+	float: left;
+}
+
+.content p {
+	font-size: 15px;
+	color: #ffffff;
+	font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    text-align: right;
+    padding-top: 8px;
+    padding-right: 24px;
+}
+
+
+.content1 {
+	width: 50%;
+	height:400px;
+	background-image: url('https://i.postimg.cc/sfbyZFd0/lorenzo-spoleti-Mlh-JNEUQp-Bs-unsplash.jpg');
+	margin-right: 1%;
+	margin-bottom: 28px;
+	background-position: center center;
+	background-size: cover;
+}
+
+.content2 {
+	width: 49%;
+	height: 400px;
+	background-color: #EFE6DF;
+	background-image: url('https://i.postimg.cc/DwDGCycj/A5-Hadcover-Book-Mockup.jpg');
+	background-position: center center;
+	background-size: cover;
+	margin-bottom: 28px;
+}
+.content3 {
+	width: 24%;
+	height: 300px;
+	background-color: #F3EAE3;
+	background-image: url('https://i.postimg.cc/XJnYLTt1/music4.jpg');
+	background-position: center center;
+	background-size: cover;
+	margin-right: 1%;
+}
+.content4 {
+	width: 25%;
+	height: 300px;
+	background-color: #B49A83;
+	background-image: url('https://i.postimg.cc/tC8Rw1Lx/music3.jpg');
+	background-position: center center;
+	background-size: cover;
+	margin-right: 1%;
+}
+.content5 {
+	height: 300px;
+	width: 24%;
+	background-color: red;
+	background-image: url('https://i.postimg.cc/vBPbzDrD/music5.jpg');
+	background-position: center center;
+	background-size: cover;
+	margin-right: 1%;
+}
+.content6 {
+	height: 300px;
+	width: 24%;
+	background-color: red;
+	background-image: url('https://i.postimg.cc/jdntHxLd/music1.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+

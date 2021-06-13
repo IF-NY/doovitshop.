@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body { 
+	background-color: #FBF6F2;
+}
+
+.navbar {
+	height: 80px;
+	padding: 0 6vw;
+}
+
+.navbar-brand img{
+	vertical-align: middle;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+.dropdown-item {
+	font-family: 'Roboto', sans-serif;	
+	color: #767676;
+}
+
+.dropdown-item:hover {
+	background-color: #FBF6F2;
+	color: #191919;
+}
+
+.nav-link {
+	font-family: 'Roboto', sans-serif;	
+	font-weight: 500;
+	color: #767676;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-link:hover {
+	color: #191919;
+}
+
+.nav-link img:last-child {
+	display:none
+} 
+
+.nav-link:hover img:first-child {
+	display:none
+} 
+
+.nav-link:hover img:last-child {
+	display:inline-block
+}
+
+.nav-link img {
+	vertical-align: middle;
+	line-height: 70px;
+}
+
+.carousel-item {
+	height: 100vh;
+	padding: 0 6vw;
+}
+
+.helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.hero-header{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.info {
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 10px;
+	text-align: left;
+}
+
+.product-name h2 {
+	font-size: 32px;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #191919;
+	font-weight: 700;
+	margin-bottom: 6px;
+}
+
+.product-price p {
+	font-size: 24px;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #191919;
+	font-weight: 500;
+	margin-bottom: 12px;
+}
+
+.product-explain p {
+	font-size: 18px;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #767676;
+	font-weight: 500;
+	margin-bottom: 12px;
+	line-height: 30px;
+}
+
+.product-option {
+	font-size: 16px;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #767676;
+	font-weight: 500;
+	margin-bottom: 24px;
+}
+
+.product-color1 {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background-color: #A8876D;
+}
+
+.product-color2 {
+	width: 36px;
+	height: 36px;
+	border-radius: 50%;
+	background-color: #6D9BC3;
+}
+
+.product-img {
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.button {
+	margin-top: 32px;
+}
+
+.button a{
+	width: 30%;
+	display: inline-block;
+	padding: 20px 23px 18px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #191919;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+    background-color: #F5EAE4;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.button a:not(:first-child) {
+	margin-left: 8px;
+}
+
+.button a:not(:last-child):hover {
+	background-color: #E9DCCE;
+}
+
+.button a:last-child {
+	background-color: #b49a83;
+	color: #fff;
+}
+
+.button a:last-child:hover {
+	background-color: #C7B29F;
+}

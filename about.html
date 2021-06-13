@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Doovit Shop</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles8.css">
+</head>
+
+<body>
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg fixed-top navbar-light" >
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#">
+	    	<img src="https://i.postimg.cc/zGvgSy9K/logo-1.png" alt="">
+	    </a>
+
+	    <!-- 반응형 네비게이션을 담당 작아지면 안보이는 NAVBAR가 안보이고 햄버거 탭이 보이는 것 --> 
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+
+	    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+	      <ul class="navbar-nav me-auto"> <!-- me-auto : 오른쪽 여백을 브라우저가 자동계산하여 적용 -->
+	        <li class="nav-item">        
+	          <a class="nav-link" href="index.html">Home</a>
+	        </li>
+	        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="shop.html">
+            Shop
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="A4 MUSIC NOTE.html">A4 MUSIC NOTE</a></li>
+            <li><a class="dropdown-item" href="B5 MUSIC NOTE.html">B5 MUSIC NOTE</a></li>
+            <li><a class="dropdown-item" href="SPECIAL NOTE.html">SPECIAL NOTE</a></li>
+            <li><a class="dropdown-item" href="PENCIL.html">PENCIL</a></li>
+          </ul>
+        	</li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="community.html">Community</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link active" href="about.html">About</a>
+	        </li>
+	      </ul>
+
+	      <ul class="navbar-nav">
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">
+	          	<img src="https://i.postimg.cc/HLP18xm7/search-icon1.png" alt="" height="26" width="26">
+	          	<img src="https://i.postimg.cc/FKbJhMXq/search-icon2.png" alt="" height="26" width="26">
+	          </a>
+	        </li>
+	        <li class="nav-item">
+	        	<a class="nav-link" href="#">
+	          <img src="https://i.postimg.cc/L5tWD4cD/shopping-cart-icon1.png" alt="" height="24" width="24">
+	          <img src="https://i.postimg.cc/Fs2f3r98/baseline-shopping-cart-black-24dp.png" alt="" height="24" width="24">
+	          </a>
+	        </li>
+	        <li class="nav-item">
+	        	<a class="nav-link" href="#">
+	          <img src="https://i.postimg.cc/dtMv9Ly2/my-page1.png" alt="" height="26" width="26">
+	          <img src="https://i.postimg.cc/y6p36h2V/baseline-person-black-24dp.png" alt="" height="26" width="26">
+	          </a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+
+<!-- carousel -->
+	<div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
+	  <div class="carousel-inner">
+	    <div class="carousel-item item1 active" data-bs-interval="4000">
+	      <div class="helper"></div><div class="intro">
+		      <h2>ABOUT US</h2>
+		      <p>doovit:shop은 음악을 전공한 음악쌤이 직접 제작한 음악 노트를 판매하는 쇼핑몰입니다</p>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+<!-- 기업 정보 --> 
+				<div class="content_container">
+						<div class="content_box">
+							<dl>
+								<dt class="content_box_left">doovit:shop</dt>
+								<dd class="content_box_right">
+									<p class="content_box_text">
+										doovit : shop은 음악을 전공한 선생님이 직접 제작한 음악노트 전문 쇼핑몰이며,<br> 
+										음악과 관련된 일을 하고 있는 사람들을 타겟으로 음악 작업을 할 때 필요한 오선 노트, 오선지, 오선 메모지, 필기류 등을 판매합니다.
+									</p>
+								</dd>
+							</dl>
+						</div>
+						<div class="content_box">
+							<dl>
+								<dt class="content_box_left">COMPANY<br>PROFILE</dt>
+								<dd class="content_box_right">
+									<table class="table">
+										<colgroup>
+											<col style="width: 160px">
+											<col style="max-width: 800px">
+										</colgroup>
+										<tbody>
+											<tr>
+												<th scope="row">설립연도</th>
+												<td>2020년 3월</td>
+											</tr>
+											<tr>
+												<th scope="row">회사위치</th>
+												<td>경기 안양시 동안구 시민대로</td>
+											</tr>
+											<tr>
+												<th scope="row">주요서비스</th>
+												<td>음악 노트 판매, 커뮤니티 서비스</td>
+											</tr>
+											<tr>
+												<th scope="row">기업형태</th>
+												<td>중소기업</td>
+											</tr>
+											<tr>
+												<th scope="row">산업명</th>
+												<td>(G47911)전자상거래 소매 중개업</td>
+											</tr>
+											<tr>
+												<th scope="row">매출액</th>
+												<td>월 200만원 (2020년)</td>
+											</tr>
+											<tr>
+												<th scope="row">대표자	</th>
+												<td>이은정, 권나영</td>
+											</tr>
+										</tbody>
+									</table>
+								</dd>
+							</dl>
+						</div>
+					</div>
+
+
+	<!-- footer -->
+	<div class="Footer">
+		<div class="footer-info">
+			<ul class="footer_ico">
+				<li>
+					<a href="https://www.facebook.com/doovitshop/" target="_blank">
+					<img src="https://i.postimg.cc/435xy3xV/footer-ico01.png">
+				  </a>
+			  </li>
+	      <li>
+	      	<a href="https://www.instagram.com/" target="_blank">
+	      		<img src="https://i.postimg.cc/4dxN9TYM/footer-ico02.png">
+	      	</a>
+	      </li>
+	      <li>
+	      	<a href="https://m.blog.naver.com/PostList.naver?blogId=doovitshop" target="_blank">
+	      		<img src="https://i.postimg.cc/50K95kvt/footer-ico03.png">
+	      	</a>
+	      </li>
+	      <li>
+	      	<a href="https://www.youtube.com/?hl=KO" target="_blank">
+	      		<img src="https://i.postimg.cc/nV5cCgpR/footer-ico04.png">
+	      	</a>
+	      </li>
+	      <li>
+	      	<a href="https://tv.kakao.com/" target="_blank">
+	      		<img src="https://i.postimg.cc/x1VfPmkL/footer-ico05.png">
+	      	</a>
+	      </li>
+	      <li>
+	      	<a href="https://story.kakao.com/ch/kakaostory" target="_blank">
+	      		<img src="https://i.postimg.cc/HLBTHP6t/footer-ico06.png">
+	        </a>
+	      </li>
+	    </ul>
+			<h2>HOME  /  ABOUT US  /  AGREEMENT  /  PRIVACY POLICY  /  STORE GUIDE</h2>
+			<p>사업자등록번호 220-81-62517통신판매업신고번호 2006-경기성남-0692호<br>
+			대표이사 이은정 경기도 성남시 분당구 불정로 6 네이버 그린팩토리 13561 <br>
+			전화 1588-3819 이메일 helpcustomer@naver.com사업자등록정보 확인 <br>
+			호스팅 서비스 제공 : NAVER Business Platform</p>
+		</div>
+	</div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+	
+</body>
+</html>

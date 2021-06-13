@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap&family=Dancing+Script:wght@400;500;600;700');
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body { 
+	background-color: #FBF6F2;
+}
+
+.navbar {
+	height: 80px;
+	padding: 0 6vw;
+}
+
+.navbar-brand img{
+	vertical-align: middle;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+.dropdown-item {
+	font-family: 'Roboto', sans-serif;	
+	color: #767676;
+}
+
+.dropdown-item:hover {
+	background-color: #FBF6F2;
+	color: #191919;
+}
+
+.nav-link {
+	font-family: 'Roboto', sans-serif;	
+	font-weight: 500;
+	color: #767676;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-link:hover {
+	color: #191919;
+}
+
+.nav-link img:last-child {
+	display:none
+} 
+
+.nav-link:hover img:first-child {
+	display:none
+} 
+
+.nav-link:hover img:last-child {
+	display:inline-block
+}
+
+.nav-link img {
+	vertical-align: middle;
+	line-height: 70px;
+}
+
+.carousel-item.item1 {
+	background-image: url('https://i.postimg.cc/63sHBkQN/Kakao-Talk-20210612-191322227.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
+.carousel-item.item2 {
+	background-image: url('https://i.postimg.cc/2y5pvT42/2.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
+.carousel-item.item3 {
+	background-image: url('https://i.postimg.cc/LsgYzKt0/4.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
+.carousel-item.item4 {
+	background-image: url('https://i.postimg.cc/xdbPc6ky/333.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
+.carousel-item {
+	height: 80vh;
+}
+
+.helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.info {
+	display: inline-block;
+	padding-left: 12%;
+	vertical-align: middle;
+	
+}
+
+.info h2 {
+	font-size: 48px;
+	font-family: 'Roboto', sans-serif;
+	color: #191919;
+	letter-spacing: 0.05em;
+	font-weight: 700;
+}
+
+.info p {
+	display:none;
+}
+
+.info a {
+    background-color: #b49a83;
+    text-align:center;
+    color: #ffffff;
+    vertical-align:middle;
+    line-height: 50px;
+    padding: 12px 32px;
+    text-decoration: none;
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	font-family: 'Roboto', sans-serif;
+	border-radius: 4px;
+	font-weight: 500;
+}
+
+.info a:hover {
+	background-color: #C6B19E;
+}
+
+.col-12 {
+	text-align: center;
+}
+
+.col-12 h2 {
+	font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+	color: #191919;
+	letter-spacing: 0.05em;
+	font-weight: 700;
+	margin-bottom: 4px;
+}
+
+.col-12 p {
+	font-size: 18px;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #767676;
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;!important;
+}
+
+.product-info {
+	text-align: left;
+	position: relative;
+    padding: 16px 8px 30px;
+    vertical-align: middle;
+}
+
+.product-img {
+	overflow: hidden;
+}
+
+.course-image {
+	transition: 0.3s ease;
+}
+
+.course-image:hover {
+	transform: scale(1.1);
+}
+
+.product-name h4 {
+	position: relative;
+    margin-bottom: 4px;
+    font-size: 16px;
+    color: #191919;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.option {
+	display: inline-block;
+    margin-left: 8px;
+}
+
+.option img {
+	vertical-align: middle;
+	margin-bottom: 4px;
+}
+
+.wish {
+	display: inline-block;
+}
+
+.wish img {
+	vertical-align: middle;
+	line-height: 16px;
+	margin-bottom: 4px;
+}
+
+.option img:last-child {
+	display:none;
+} 
+
+.option:hover img:first-child {
+	display:none;
+} 
+
+.option:hover img:last-child {
+	display:inline-block;
+}
+
+.wish img:last-child {
+	display:none;
+} 
+
+.wish:hover img:first-child {
+	display:none;
+} 
+
+.wish:hover img:last-child {
+	display:inline-block;
+}
+
+.cart {
+	display: inline-block;
+}
+
+.cart img {
+	vertical-align: middle;
+	line-height: 16px;
+	margin-bottom: 4px;
+}
+
+.cart img:last-child {
+	display:none;
+} 
+
+.cart:hover img:first-child {
+	display:none;
+} 
+
+.cart:hover img:last-child {
+	display:inline-block
+}
+
+.product-explain p {
+	font-size: 15px;
+	margin-bottom: 4px;
+}
+
+.product-price p {
+	display: inline-block;
+}
+
+.product-price p:first-child {
+	font-size: 15px;
+	font-weight: 700;
+	color: #191919;
+}
+
+.product-price p:last-child {
+	font-size: 14px;
+	font-weight: 500;
+	color: #767676;
+	padding-right: 0px;
+	position: absolute;
+	right: 8px;
+}
+
+/*중간 배너 */
+
+.banner {
+	text-align: center;
+	margin-top: 70px;
+	height: 20vh;
+	background-image: url('https://i.postimg.cc/j5mqsV3K/banner.jpg');
+	background-position: center center;
+	background-size: cover;
+	line-height: 20vh;
+}
+
+.text {
+	display: inline-block;
+	line-height: normal;
+	vertical-align: middle;
+}
+
+.banner p {
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	color: #767676;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+}
+
+.banner h3 {
+	font-size: 20px;
+	font-family: 'Noto Sans KR', sans-serif;
+	color: #191919;
+	font-weight: 700;
+	margin-top: 4px;
+}
+
+
+.Footer {
+	height: 30vh;
+	width: 100%;
+	background-color: #F7F2EE;
+	color: #7E756D;
+	text-align: center;
+	line-height: 30vh;
+}
+
+.footer-info {
+	display: inline-block;
+	line-height: normal;
+	vertical-align: middle;
+}
+
+.footer_ico {
+    margin: 0 auto;
+    list-style: none;
+    padding: 0 12px;
+    margin: 28px 0;
+}
+
+.footer_ico li {
+	display: inline-block;
+	padding: 0 12px;
+}
+
+.Footer h2 {
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 8px;
+}
+
+.Footer p {
+	font-size: 12px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+@media (min-width: 768px){
+	.carousel-item.item1 {
+		background-image: url('https://i.postimg.cc/02pZCWZt/11.jpg');
+		background-position: right center;
+		background-size: cover;
+	}
+
+	.carousel-item.item2 {
+		background-image: url('https://i.postimg.cc/Vv6g4trf/2.jpg');
+		background-position: right center;
+		background-size: cover;
+	}
+
+	.carousel-item.item3 {
+		background-image: url('https://i.postimg.cc/MpcNbvgb/4.jpg');
+		background-position: right center;
+		background-size: cover;
+	}
+
+	.carousel-item.item4 {
+		background-image: url('https://i.postimg.cc/ZY14NRD8/222.jpg');
+		background-position: right center;
+		background-size: cover;
+	}
+
+	.info p {
+		font-size: 18px;
+		line-height: 32px;
+		margin-top: 8px;
+		margin-bottom: 24px;
+		font-family: 'Noto Sans KR', sans-serif;
+		color: #767676;
+		font-weight: 500;
+		display: block;
+	}
+
+	.banner h3 {
+		font-size: 28px;
+		font-family: 'Noto Sans KR', sans-serif;
+		color: #191919;
+		font-weight: 700;
+		margin-top: 4px;
+	}
+}

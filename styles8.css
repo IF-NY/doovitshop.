@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+
+body { 
+	background-color: #FBF6F2;
+}
+
+.navbar {
+	height: 80px;
+	padding: 0 6vw;
+}
+
+.navbar-brand img{
+	vertical-align: middle;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+.dropdown-toggle::after {
+    display:none;
+}
+
+.dropdown-item {
+	font-family: 'Roboto', sans-serif;	
+	color: #767676;
+}
+
+.dropdown-item:hover {
+	background-color: #FBF6F2;
+	color: #191919;
+}
+
+.nav-link {
+	font-family: 'Roboto', sans-serif;	
+	font-weight: 500;
+	color: #767676;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-link:hover {
+	color: #191919;
+}
+
+.nav-link img:last-child {
+	display:none
+} 
+
+.nav-link:hover img:first-child {
+	display:none
+} 
+
+.nav-link:hover img:last-child {
+	display:inline-block
+}
+
+.nav-link img {
+	vertical-align: middle;
+	line-height: 70px;
+}
+
+.carousel-item {
+	height: 60vh;
+	text-align: center;
+}
+
+.carousel-item.item1 {
+	background-image: url('https://i.postimg.cc/cCn6JHM4/siddharth-bhogra-k3kdc5-MQYyk-unsplash111222.jpg');
+	background-position: center center;
+	background-size: cover;
+}
+
+.intro h2{
+	font-size: 54px;
+	color: #191919;
+	font-family: 'Roboto', sans-serif;	
+	font-weight: 700;
+	margin-bottom: 8px;
+	letter-spacing: 0.05em;
+}
+
+.intro p {
+	font-size: 20px;
+	color: #191919;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-weight: 600;
+}
+
+.intro {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.helper {
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+.content_container {
+	max-width: 1200px;
+	margin-top: 48px;
+    margin: 80px auto;
+}
+
+.content_box_left {
+	display: inline-block;
+	vertical-align: top;
+    margin-right: 100px;
+    font-size: 20px;
+    color: #191919;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;;
+}   
+
+.content_box_right {
+	display: inline-block;
+    font-size: 15px;
+    color: #767676;
+    font-weight: 500;
+}
+
+.content_box_text{
+	font-size: 15px;
+	color: #767676;
+    font-weight: 500;
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 28px;
+}
+
+.content_box .content_box_text:first-child {
+    margin-top: 0;
+}
+
+
+
+.table{
+    width: 100%;
+    display: inline-block;
+    border-collapse: collapse;
+}
+
+.table th {
+	height: 56px;
+    border-bottom: 1px solid #dbdbdb;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    color: #191919;
+    text-align: left;
+}
+
+.table td {
+    border-bottom: 1px solid #dbdbdb;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 15px;
+    color: #767676;
+}
+
+.table tr:first-child {
+	border-top: 2px solid #191919;
+}
+
+.table td::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.Footer {
+	height: 30vh;
+	width: 100%;
+	background-color: #F7F2EE;
+	color: #7E756D;
+	text-align: center;
+	line-height: 30vh;
+}
+
+.footer-info {
+	display: inline-block;
+	line-height: normal;
+	vertical-align: middle;
+}
+
+.footer_ico {
+    margin: 0 auto;
+    list-style: none;
+    padding: 0 12px;
+    margin: 28px 0;
+}
+
+.footer_ico li {
+	display: inline-block;
+	padding: 0 12px;
+}
+
+.Footer h2 {
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: 8px;
+}
+
+.Footer p {
+	font-size: 12px;
+	font-family: 'Noto Sans KR', sans-serif;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Doovit Shop</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles4.css">
+</head>
+
+<body>
+	<!-- navbar -->
+	<nav class="navbar navbar-expand-lg fixed-top navbar-light" >
+	  <div class="container-fluid">
+	    <a class="navbar-brand" href="#">
+	    	<img src="https://i.postimg.cc/zGvgSy9K/logo-1.png" alt="">
+	    </a>
+
+	    <!-- 반응형 네비게이션을 담당 작아지면 안보이는 NAVBAR가 안보이고 햄버거 탭이 보이는 것 --> 
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	      <span class="navbar-toggler-icon"></span>
+	    </button>
+
+	    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+	      <ul class="navbar-nav me-auto"> <!-- me-auto : 오른쪽 여백을 브라우저가 자동계산하여 적용 -->
+	        <li class="nav-item">        
+	          <a class="nav-link" href="index.html">Home</a>
+	        </li>
+	        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="shop.html">
+            Shop
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="A4 MUSIC NOTE.html">A4 MUSIC NOTE</a></li>
+            <li><a class="dropdown-item" href="B5 MUSIC NOTE.html">B5 MUSIC NOTE</a></li>
+            <li><a class="dropdown-item" href="SPECIAL NOTE.html">SPECIAL NOTE</a></li>
+            <li><a class="dropdown-item" href="PENCIL.html">PENCIL</a></li>
+          </ul>
+        	</li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="community.html">Community</a>
+	        </li>
+	        <li class="nav-item">
+	          <a class="nav-link" href="about.html">About</a>
+	        </li>
+	      </ul>
+
+	      <ul class="navbar-nav">
+	        <li class="nav-item">
+	          <a class="nav-link" href="#">
+	          	<img src="https://i.postimg.cc/HLP18xm7/search-icon1.png" alt="" height="26" width="26">
+	          	<img src="https://i.postimg.cc/FKbJhMXq/search-icon2.png" alt="" height="26" width="26">
+	          </a>
+	        </li>
+	        <li class="nav-item">
+	        	<a class="nav-link" href="#">
+	          <img src="https://i.postimg.cc/L5tWD4cD/shopping-cart-icon1.png" alt="" height="24" width="24">
+	          <img src="https://i.postimg.cc/Fs2f3r98/baseline-shopping-cart-black-24dp.png" alt="" height="24" width="24">
+	          </a>
+	        </li>
+	        <li class="nav-item">
+	        	<a class="nav-link" href="#">
+	          <img src="https://i.postimg.cc/dtMv9Ly2/my-page1.png" alt="" height="26" width="26">
+	          <img src="https://i.postimg.cc/y6p36h2V/baseline-person-black-24dp.png" alt="" height="26" width="26">
+	          </a>
+	        </li>
+	      </ul>
+	    </div>
+	  </div>
+	</nav>
+
+	<!-- carousel -->
+	<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+	  <div class="carousel-indicators">
+	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	  </div>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active item1">
+	      <div class="helper"></div><div class="hero-header">
+			    <div class="product-img">
+			    	<img src="https://i.postimg.cc/W3djKV9M/3.jpg" alt="b5-note" width="80%">
+			    </div>
+			    <div class="info">
+						<div class="product-name">
+							<h2>B5컬러 음악노트/오선노트</h2>
+						</div>
+						<div class="product-price">
+							<p>2,900원</p>
+						</div>
+						<div class="product-explain">
+							<p>너무너무 예쁜 색으로 구성된 B5 오선노트 입니다.<br>
+								우리가 자주 쓰는 기본 12줄 오선 노트를 작은 가방에도 쏙 들어가는<br>
+								귀여운 사이즈로 만들었습니다. 그린, 레몬, 민트 색상으로 눈까지 즐거운<br>
+								예쁜 오선노트를 만나보세요.</p>
+						</div>
+						<div class="product-option">
+							<p>페이지 64&nbsp;&nbsp;&nbsp;사이즈 25.7*18.2(B5 사이즈)</p>
+						</div>
+						<div class="product-color1">
+							<a class="green" href="B5 MUSIC NOTE color.html"></a>
+							<a class="mint" href="B5 MUSIC NOTE color.html"></a>
+							<a class="yellow" href="B5 MUSIC NOTE color.html"></a>
+						</div>
+						<div class="button">
+							<a href="#">WISH LIST</a>
+							<a href="#">ADD TO CART</a>
+							<a href="#">BUY NOW</a>
+						</div>
+			    </div>
+			   </div>
+	     </div>
+	  </div>
+	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Previous</span>
+	  </button>
+	  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Next</span>
+	  </button>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+	
+</body>
+</html>
